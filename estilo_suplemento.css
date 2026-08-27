@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #5c1d1d;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 2px solid #000000;
+}
+
+.header h1 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+
+/* Conteúdo Principal */
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    color: #0066cc;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.content .intro {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #111111;
+}
+
+/* Lista */
+.content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content li {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.content li strong {
+    color: #000000;
+}
